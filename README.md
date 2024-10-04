@@ -20,3 +20,52 @@ Welcome to the **Quiz Application**! This is a simple Java-based quiz applicatio
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Suraj051198/Quiz-Application.git
+
+    Navigate to the project directory:
+
+    bash
+
+cd Quiz-Application
+
+Compile the Java files:
+
+bash
+
+javac src/*.java
+
+Run the application:
+
+bash
+
+    java -cp src MainClassName  # Replace MainClassName with the actual main class name
+
+Usage
+
+Upon starting the application, you will be welcomed and guided through the rules of the quiz. Choose the correct options for each question and click 'Submit' when you are finished.
+Code Reference
+
+    Quiz functionality is implemented in the Quiz.java file.
+    User interface elements are managed in the Rules.java file.
+    Score calculation is handled in the Score.java file.
+
+Author
+
+    Suraj Balu Sonawane
+    LinkedIn
+
+markdown
+
+
+### Instructions to Add the README to Your Repository
+
+1. **Create the README File**:
+   - In your project directory, create a file named `README.md`.
+
+2. **Copy the Content**:
+   - Copy the content provided above into your `README.md` file.
+
+3. **Add and Commit the README**:
+   ```bash
+   git add README.md
+   git commit -m "Add README file"
+   git push origin main
