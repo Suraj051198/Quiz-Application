@@ -5,7 +5,7 @@ Welcome to the **Quiz Application**! This is a simple Java-based quiz applicatio
 ## Features
 
 - User-friendly interface
-- Timed quiz (10 minutes for 10 questions)
+- Timed quiz (5 minutes for 10 questions)
 - Multiple-choice questions
 - No negative marking for incorrect answers
 - Submission of answers with a results display
@@ -21,25 +21,22 @@ Welcome to the **Quiz Application**! This is a simple Java-based quiz applicatio
    ```bash
    git clone https://github.com/Suraj051198/Quiz-Application.git
 
-    Navigate to the project directory:
+## Navigate to the project directory:
 
-    bash
+    ```bash
+    cd Quiz-Application
 
-cd Quiz-Application
+## Compile the Java files:
 
-Compile the Java files:
+   ```bash
+   javac src/*.java
 
-bash
+ ## Run the application:
 
-javac src/*.java
-
-Run the application:
-
-bash
-
+    ```bash
     java -cp src MainClassName  # Replace MainClassName with the actual main class name
 
-Usage
+## Usage:
 
 Upon starting the application, you will be welcomed and guided through the rules of the quiz. Choose the correct options for each question and click 'Submit' when you are finished.
 Code Reference
@@ -48,24 +45,8 @@ Code Reference
     User interface elements are managed in the Rules.java file.
     Score calculation is handled in the Score.java file.
 
-Author
+## Author
 
     Suraj Balu Sonawane
     LinkedIn
 
-markdown
-
-
-### Instructions to Add the README to Your Repository
-
-1. **Create the README File**:
-   - In your project directory, create a file named `README.md`.
-
-2. **Copy the Content**:
-   - Copy the content provided above into your `README.md` file.
-
-3. **Add and Commit the README**:
-   ```bash
-   git add README.md
-   git commit -m "Add README file"
-   git push origin main
